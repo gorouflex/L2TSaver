@@ -8,7 +8,7 @@ while i > 0:
     if a % i == 0 and b % i == 0:
         MAX = i
     i = i - 1 
-BCNN = a * b // MAX
+BCNN = a * b / MAX
 print("BCNN:", BCNN)
 
 ## Vi du:
