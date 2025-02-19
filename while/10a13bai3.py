@@ -8,4 +8,4 @@ while i <= 100:
 print(s)
 
 ## Vi du:
-# Xuat: 68 (so luong cac so thoa man dieu kien)
+# Xuat: 48 (so luong cac so thoa man dieu kien)
