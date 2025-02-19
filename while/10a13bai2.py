@@ -1,4 +1,4 @@
-## Chuong trinh tinh tong tu 1 + 4 + 7 + ... + 100
+## Chuong trinh tim ra phan tu lon nhat cua day 1, 4, 7, ..., 100 nhung be hon 100
 i = 1
 while i < 100:
     i = i + 3
