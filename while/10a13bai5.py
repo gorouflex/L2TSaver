@@ -9,7 +9,7 @@ MAX = 1
 while i <= m:
     if a % i == 0 and b % i == 0:
         MAX = i
-    i += 1
+    i = i + 1
 print("UCLN:", MAX)
 
 ## Vi du:
