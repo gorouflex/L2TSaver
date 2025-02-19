@@ -6,7 +6,7 @@ while i < 10:
         print(i * 10 + j, end=" ")
         j += 1 
     print()
-    i += 1
+    i = i + 1
 ## Vi du:
 # Xuat:
 #  1  2  3  4  5  6  7  8  9 10
