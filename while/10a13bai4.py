@@ -1,9 +1,12 @@
 ## Chuong trinh in bang so tu 1 den 100 theo dinh dang 10x10
-for i in range(10):
-    for j in range(1, 11):
+i = 0
+while i < 10:
+    j = 1
+    while j <= 10:
         print(i * 10 + j, end=" ")
-    print("\n")
-
+        j += 1 
+    print()
+    i += 1
 ## Vi du:
 # Xuat:
 #  1  2  3  4  5  6  7  8  9 10
