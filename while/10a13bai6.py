@@ -1,3 +1,4 @@
+## Chuong trinh tim BCNN cua hai so a va b
 a = int(input("Nhap a:"))
 b = int(input("Nhap b:"))
 m = 0
@@ -11,3 +12,6 @@ for i in range(1, m+1):
         MAX = i
 BCNN = a*b/MAX
 print("BCNN:", BCNN)
+## Vi du:
+# Nhap: a = 12, b = 18
+# Xuat: BCNN: 36
