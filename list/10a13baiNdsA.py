@@ -11,7 +11,7 @@ print("Danh sach so da nhap:", A) ## Khong can thiet neu de khong hoi in ra ds v
 ## Cac dang yeu cau de co the ra:
 ## a) Dua ra so lon nhat, vi tri
 max = A[0]
-vitri = 0
+vitri = 1
 for i in range(1, n):
     if A[i] > max:
         max = A[i]
@@ -20,7 +20,7 @@ print("So lon nhat", max, "o vi tri:", vitri)
 
 ## b) Dua ra so nho nhat, vi tri
 min = A[0]
-vitri = 0
+vitri = 1
 for i in range(1, n):
     if A[i] < min:
         min = A[i]
@@ -47,4 +47,18 @@ while i < n:
         i = i + 1
 print("Danh sach sau khi xoa cac phan tu chia het cho 5:", A)
 
-## a,b,c,d la 50% con lai cua bai tu luan. Chuc may man!
+## e) Xoa cac so nguyen to trong DS, in ra DS da xoa
+i = 0
+while i < n:
+    d = 0
+    for j in range(1, A[i]+1):
+        if A[i] % j == 0:
+            d = d + 1
+    if d == 2:
+        del A[i]
+        n = n - 1
+    else:
+        i = i + 1
+print("Danh sach sau khi xoa cac so nguyen to:", A)
+
+## a,b,c,d,e la 50% con lai cua bai tu luan. Chuc may man!
