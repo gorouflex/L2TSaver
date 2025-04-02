@@ -6,4 +6,4 @@
 - Bài 22, 23: Kiểu dữ liệu danh sách, Một số lệnh làm việc với dữ liệu danh sách: [/list](list)
 - Bài 24, 25: Xâu kí tự, Một số lệnh làm việc với xâu kí tự: [/string](string)|
 
-### Made with 💖 by ([gorouflex](https://github.com/gorouflex))
+### Made with 💖 by [gorouflex](https://github.com/gorouflex)
