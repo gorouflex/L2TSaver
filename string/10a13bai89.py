@@ -1,6 +1,5 @@
 ## VCT nhập số tự nhiên n, rồi nhập họ tên của n học sinh.
 n = int(input("Nhập số tự nhiên n: "))
-A = []
 TEN = []
 HO = []
 for i in range(n):
