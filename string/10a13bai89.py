@@ -21,5 +21,5 @@ s = input("Nhập tên cần tìm: ")
 dem = 0
 for i in range(len(TEN)):
     if TEN[i] == s:
-        dem += 1
+        dem = dem + 1
 print("Số bạn có cùng tên đó trong lớp là: ", dem)
